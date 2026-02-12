@@ -1,0 +1,7 @@
+body {
+    background-image: url(../img/carro.jpg);
+    background-repeat: no-repeat;
+    color: black;
+    background-size: cover;
+    background-attachment: fixed; 
+}
