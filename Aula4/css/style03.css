@@ -1,0 +1,9 @@
+body {
+    background-color: darkgray;
+}
+
+.ex1 {
+    list-style-image: url('../img/mailchimp.svg');
+    list-style-type: disc;
+    margin-left: 20px;
+}

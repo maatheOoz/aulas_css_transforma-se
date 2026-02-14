@@ -1,0 +1,51 @@
+body {
+    background-color: grey;
+}
+
+.link:link {
+    color: black;
+    background-color: blue;
+}
+
+.link:visited {
+    color: cyan;
+    background-color: red;
+}
+
+.link:hover {
+    color: deeppink;
+    background-color: white;
+}
+
+.link:active {
+    color: chartreuse;
+    background-color: black;
+}
+
+.link {
+    text-decoration: none;
+    cursor: url(../img/mailchimp.png), auto;
+}
+
+h2 {
+    cursor: url(../img/mailchimp.svg), auto;
+}
+
+.link-btn:link, .link-btn:visited {
+    /* background-color: darkblue; */
+    background-color: transparent;
+    border: 3px solid crimson;
+    color: crimson;
+    padding: 20px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.link-btn:hover, .link-btn:active {
+    background-color: crimson;
+    color: white;
+    border: 3px solid white;
+    transition: .5s;
+}
